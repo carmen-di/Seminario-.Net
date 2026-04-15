@@ -1,1 +1,2 @@
-# Seminario-.Net
+## Seminario-de-Lenguaje-.NET
+Repositorio con ejercicios y prácticas de la materia **Seminario de Lenguaje opción .NET.**, correspondiente al tercer semestre de la carrera Licenciatura en Informática en la Facultad de Informática de la UNLP.
