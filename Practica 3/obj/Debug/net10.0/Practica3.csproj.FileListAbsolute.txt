@@ -1,0 +1,14 @@
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\bin\Debug\net10.0\Practica3.exe
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\bin\Debug\net10.0\Practica3.deps.json
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\bin\Debug\net10.0\Practica3.runtimeconfig.json
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\bin\Debug\net10.0\Practica3.dll
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\bin\Debug\net10.0\Practica3.pdb
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\Practica3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\Practica3.AssemblyInfoInputs.cache
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\Practica3.AssemblyInfo.cs
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\Practica3.csproj.CoreCompileInputs.cache
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\Practica3.dll
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\refint\Practica3.dll
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\Practica3.pdb
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\Practica3.genruntimeconfig.cache
+C:\Users\norai\OneDrive\Documentos\Informática\Seminario_Net\Practica3\obj\Debug\net10.0\ref\Practica3.dll
