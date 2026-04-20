@@ -1,0 +1,21 @@
+/*9) ¿Qué se puede decir en relación a la sobrecarga de métodos en este ejemplo?
+
+class A
+{
+    public void Metodo(short n) {
+        Console.Write("short {0} - ", n);
+    }
+    public void Metodo(int n) {
+        Console.Write("int {0} - ", n);
+    }
+    public int Metodo(int n) {
+        return n + 10;
+    }
+}
+
+En el ejemplo se observa una sobrecarga de métodos en la clase A. La sobrecarga es válida cuando los métodos
+tienen el mismo nombre pero difieren en la lista de parámetros (tipo o cantidad).
+Los métodos Metodo(short n) y Metodo(int n) están correctamente sobrecargados, ya que difieren en el tipo del
+parámetro.
+Sin embargo, los métodos Metodo(int n) con distinto tipo de retorno (void e int) no pueden coexistir, ya que 
+en C# el tipo de retorno no forma parte de la firma del método. Esto provoca un error de compilación..*/

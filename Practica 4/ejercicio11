@@ -1,0 +1,24 @@
+/*11) Reemplazar estas líneas de código por otras equivalentes que utilicen el operador null-coalescing
+(?? ) y / o la asignación null-coalescing (??=)*/
+
+if (st1 == null) // Este bloque se puede reemplazar por: st = st1 ?? (st2 ?? st3); 
+{
+    if (st2 == null)
+    {
+        st = st3;
+    }
+    else
+    {
+        st = st2;
+    }
+}
+else
+{
+    st = st1;
+}
+if (st4 == null) // Este bloque se puede reemplazar por: st4 ??= "valor por defecto";
+{
+    st4 = "valor por defecto";
+}
+
+
