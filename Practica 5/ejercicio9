@@ -1,0 +1,22 @@
+Auto a = new Auto();
+a.Marca = "Ford";
+Console.WriteLine(a.Marca);
+class Auto
+{
+    private string marca;
+    public string Marca
+    {
+        set
+        {
+            Marca = value;
+        }
+        get
+        {
+            return marca;
+        }
+    }
+}
+
+// El error está en set{ Marca = value;}, yaque se esta igualando el valor value con la propiedad misma.
+// Para solucionarlo debería asignar al campo privado, no a la propiedad
+// Marca → llama al setter → que vuelve a llamar a Marca → que vuelve al setter → infini

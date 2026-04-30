@@ -1,0 +1,23 @@
+class A
+{
+    char c;
+    static string st;
+    void metodo1()
+    {
+        st = "string";
+        c = 'A';
+    }
+    static void metodo2()
+    {
+        new ClaseA().c = 'a'; // (1)
+        st = "st2";
+        c = 'B'; // (2)
+        new A().st = "otro string"; // (3)
+    }
+}
+
+// (1) Error, la clase se llama A, no ClaseA. Si se llamara new A().c, sería válido porque estás creando
+// un objeto específico para acceder a su variable c.
+// (2) Error, quiero acceder a una variable de instancia dentro del metodo2() que es estático
+// (3) Error, los miembros estáticos deben accederse a través del nombre de la clase (A.st), no a través de
+// una instancia (objeto.st)

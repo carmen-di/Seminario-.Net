@@ -1,0 +1,5 @@
+/*11) ¿ Qué diferencia hay entre estas dos declaraciones?
+a) public int X = 3; y b) public int X => 3;
+
+a) Es una variable de instancia X con valor 3. 
+b) Es una propiedad de solo lectura, siempre retorna 3.*/
