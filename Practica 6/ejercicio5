@@ -1,0 +1,26 @@
+/*5) ¿Qué líneas del siguiente código provocan error de compilación y por qué?*/
+
+class Persona
+{
+    public string Nombre { get; set; }
+}
+public class Auto
+{
+    private Persona _dueño1, _dueño2;
+    public Persona GetPrimerDueño() => _dueño1;
+    protected Persona SegundoDueño
+    {
+        set => _dueño2 = value;
+    }
+}
+
+/* Las lineas:
+
+public Persona GetPrimerDueño() => _dueño1;
+protected Persona SegundoDueño
+
+generan error de compilación debido a la incoherencia de accesibilidad presentada por estar tratando de 
+acceder a la clase implícitamente privada Persona. Además no esta permitido que las clases de mayor acceso 
+intercedan en la creación, modificación o eliminación de variables o Propiedades pertenecientes a clases de 
+menor acceso.
+*/

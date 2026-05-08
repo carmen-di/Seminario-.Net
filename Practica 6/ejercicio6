@@ -1,0 +1,15 @@
+/*6) Señalar el error en cada uno de los siguientes casos:
+
+(6.1) El error es que se quiere hacer override a un método que no admite invalidación es decir que no es virtual. 
+
+(6.2) El error está en que una clase no abstracta no puede tener un método abstracto. Debería ser: abstract class A
+
+(6.3) El error es que, en la clase A, el método abstracto está implementado. Cuando un método es abstracto, no debe 
+estar implementado, ya que es obligación de cada clase que lo herede, que lo implemente a su manera.
+
+(6.4) Error, para declarar un método como override, la clase debe derivar de otra que posea un método
+de tipo virtual, abstract u override. En este caso la clase A no deriva de ninguna otra.
+
+(6.5) Un método sobreescrito, no puede cambiar el modificador de acceso, sino que hereda el modificador de 
+acceso del metodo de su clase padre.
+*/

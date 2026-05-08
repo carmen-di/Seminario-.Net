@@ -1,0 +1,35 @@
+/*4) Contestar sobre el siguiente programa:
+¿Por qué no es necesario agregar :base en el constructor de Taxi? Eliminar el segundo constructor de
+la clase Auto y modificar la clase Taxi para el programa siga funcionando*/
+
+Taxi t = new Taxi(3);
+Console.WriteLine($"Un {t.Marca} con {t.Pasajeros} pasajeros");
+class Auto
+{
+    public string Marca { get; private set; } = "Ford";
+    public Auto(string marca) => this.Marca = marca;
+    public Auto() { }
+}
+class Taxi : Auto
+{
+    public int Pasajeros { get; private set; }
+    public Taxi(int pasajeros) => this.Pasajeros = pasajeros;
+}
+
+/*No es necesario agregar : base en el constructor de Taxi porque, por defecto, se invoca el constructor sin
+parámetros de la clase Auto. Por este motivo, la instancia de Taxi no necesita inicializar el campo Marca, ya que
+este tiene asignado el valor predeterminado "Ford
+
+Taxi t = new Taxi(3);
+Console.WriteLine($"Un {t.Marca} con {t.Pasajeros} pasajeros");
+class Auto
+{
+    public string Marca { get; private set; } = "Ford";
+    public Auto(string marca) => this.Marca = marca;
+}
+class Taxi : Auto
+{
+    public int Pasajeros { get; private set; }
+    public Taxi(int pasajeros) : base("Ford") => this.Pasajeros = pasajeros; 
+}
+*/

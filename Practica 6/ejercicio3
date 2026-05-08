@@ -1,0 +1,15 @@
+/*3) ¿Por qué no funciona el siguiente código? ¿Cómo se puede solucionar fácilmente?*/
+class Auto
+{
+    double velocidad;
+    public virtual void Acelerar() => Console.WriteLine("Velocidad = {0}", velocidad += 10);
+}
+class Taxi : Auto
+{
+    public override void Acelerar() => Console.WriteLine("Velocidad = {0}", velocidad += 5);
+}
+
+/*No funciona porque en la clase Auto, al no estar indicado el tipo de acceso de la variable velocidad, se 
+define privada por defecto, lo que la hace visible solo en la clase que se define. Para solucionar el problema
+debemos anteponer la palabra "potected" a la variable, para que las clases que hereden de Auto puedan 
+acceder a esa variable (aunque no es una buena practica acceder a los campos definidos en una superclase). */
